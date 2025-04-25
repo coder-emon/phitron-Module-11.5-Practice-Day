@@ -4,7 +4,7 @@ int main()
 {
     int n;
     scanf("%d", &n );
-    char m[100001];
+    char m[n+1];
     scanf("%s", m);
     int sum = 0;
     for(int i = 0; i < n; i++){
